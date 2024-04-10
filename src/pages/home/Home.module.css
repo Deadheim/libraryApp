@@ -1,0 +1,39 @@
+.home {
+    width: 100%;
+    min-height: 700px;
+    color: #FFFFFF;
+
+
+}
+
+
+
+.intro {
+    width: 100%;
+    background-blend-mode: overlay;
+    background: url("../../assets/book_background.jpg"), linear-gradient(#221f17 0%, transparent 100%), linear-gradient(90deg, #221f17 0%, transparent 100%);
+    background-size: cover;
+    /*background-color: #0f0f0f;*/
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    min-height: 700px;
+}
+
+.introInner {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    min-height: 700px;
+
+
+}
+
+.introTitle {
+    font-size: 47px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}

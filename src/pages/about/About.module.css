@@ -1,0 +1,175 @@
+/* MAIN ABOUT STYLES */
+
+.about {
+    width: 100%;
+    min-height: 700px;
+    background-blend-mode: overlay;
+    background: url("../../assets/book_background.jpg"), linear-gradient(#221f17 0%, transparent 100%), linear-gradient(90deg, #221f17 0%, transparent 100%);
+    background-size: cover;
+    /*background: rgb(204,217,220);*/
+    /*background: linear-gradient(90deg, rgba(204,217,220,1) 50%, rgba(145,158,156,1) 88%);*/
+    color: #d3d3d3;
+
+
+}
+
+.aboutInner {
+    display: flex;
+    width: 100%;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+
+    padding: 35px 0 0 0;
+}
+
+.aboutBook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.aboutInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 180px;
+
+}
+
+/* LEFT SIDE */
+
+.bookImage {
+    width: 220px;
+    border-radius: 7px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+
+}
+
+.numberOfPages {
+    font-size: 15px;
+    color: #52b4ff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* RIGHT SIDE */
+
+
+/* BOOK */
+.bookTitle {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.bookInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px
+
+}
+
+.bookCreated {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-right: 10px;
+    position: relative;
+    padding-right: 7px;
+    border-right: 1px solid #cac7c7;
+}
+
+
+.bookRating {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-right: 10px;
+    padding-right: 7px;
+    border-right: 1px solid #cac7c7;
+
+}
+
+.bookISBN {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+/* AUTHOR */
+
+.author {
+    margin-bottom: 25px;
+}
+
+.authorTitle {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.bookAuthor {
+    display: flex;
+    align-items: center;
+}
+
+.bookAuthorName {
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.bookAuthorImage {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+/* ABOUT */
+
+.bookAbout {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.sentence {
+    margin-top: 7px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.bookCharacters {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.characters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.character {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 7px 7px 0 0;
+    color: #52b4ff;
+
+}
+
+.notFound {
+    font-size: 14px;
+    font-weight: 500;
+}

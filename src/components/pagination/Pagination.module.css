@@ -1,0 +1,13 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.currentPage {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    color: #333333;
+}
